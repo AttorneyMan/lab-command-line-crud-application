@@ -40,10 +40,10 @@ console.log(chalk.strikethrough.bgRed("Welcome to Our trackR App! 💰\n\n"));
                 function destroy(receipts, id) {
                     const index = receipts.findIndex((receipt) => id === id);
                     if (index > -1) {
-                      animals.splice(index, 1);
+                      receipts.splice(index, 1);
                      return receipts;
                     } else {
-                     return receipt;
+                     return receipts;
                     }
                 }
             writeToFile = true;
