@@ -11,11 +11,8 @@
 
     "create": "node index.js create",
     "update": "node index.js update",
-    "destroy": "node index.js destroy",
-    
-    "score": "node index.js score"
-
-  },
+    "destroy": "node index.js destroy"
+    },
  
   "keywords": [],
   "author": "",
